@@ -1,0 +1,21 @@
+# OSX 
+.DS_Store
+
+# Python Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Vim swap
+*.sw*
+
+# Data used for testing
+config/private/*
+data/*
+output/*
+logs/*
+
+# Include directories as placeholders
+!config/private/.keep
+!data/.keep
+!output/.keep
+!logs/.keep
