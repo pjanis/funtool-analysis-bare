@@ -1,0 +1,14 @@
+all:
+  selector_module: funtool_common_processes.grouping_selectors.default
+  selector_function: all
+  parameters: !!null
+
+
+total_sprites:
+  selector_module: funtool_common_processes.grouping_selectors.default
+  selector_function: by_measures_and_meta
+  parameters: 
+    measures: 
+      - total_sprites 
+    metas: !!null
+

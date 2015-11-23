@@ -1,0 +1,9 @@
+# A YAML dictionary of available analysis selectors
+#
+# Analysis Selector should be of the form
+# analysis_selector_name:
+#   analysis_selector_module: full_module_name 
+#   analysis_selector_function: function_name
+#   parameters:
+#     parameter_name: parameter_value
+

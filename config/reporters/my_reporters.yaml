@@ -1,0 +1,42 @@
+save_states_tsv:
+  reporter_module: funtool_common_processes.reporters.save_states_to_file
+  reporter_function: save
+  parameters:
+    save_directory: output
+    filename: states
+    file_type: tsv
+    overwrite: true
+
+
+save_states_csv:
+  reporter_module: funtool_common_processes.reporters.save_states_to_file
+  reporter_function: save
+  parameters:
+    save_directory: output
+    filename: states
+    file_type: csv
+    overwrite: true
+
+save_groups_csv:
+  reporter_module: funtool_common_processes.reporters.save_groups_to_file
+  reporter_function: save
+  parameters:
+    save_directory: output
+    filename: groups
+    file_type: csv
+    overwrite: true
+
+sample_state:
+  reporter_module: funtool_common_processes.reporters.sampling_reporters
+  reporter_function: save_sample
+  parameters:
+    output_to:
+      - file
+#      - stdio
+    save_directory: output
+    filename: sample_state
+    print_depth: 4
+    
+interact:
+  reporter_module: funtool_common_processes.reporters.to_repl
+  reporter_function: interact

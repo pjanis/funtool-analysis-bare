@@ -1,0 +1,12 @@
+#EXAMPLE PROCESS
+#
+#store_value:
+#  measure_module: funtool_scratch_processes.state_measures.default
+#  measure_function: record_parameters
+#  analysis_selectors: !!null
+#  grouping_selectors: !!null
+#  parameters:
+#    values: 
+#      - parameter_name: test_value
+#        parameter_value: hello
+

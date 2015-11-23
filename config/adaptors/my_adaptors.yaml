@@ -1,0 +1,9 @@
+# A YAML dictionary of available adaptors
+#
+# Adaptors should be of the form
+# adaptor_name:
+#   adaptor_module: full_module_name 
+#   adaptor_function: function_name
+#   parameters:
+#     parameter_name: parameter_value
+

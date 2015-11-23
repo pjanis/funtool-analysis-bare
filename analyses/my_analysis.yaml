@@ -1,0 +1,14 @@
+# Contains a list of analyses
+# Each analysis is a single item dictionary with
+# an analysis name as a key and
+# a process list as a value
+# Each process in the list should be formatted as
+# - process_type: process_name
+
+#Example
+#-------
+#- my_analysis:
+#  - adaptor: my_data
+#  - state_measure: my_measure
+#  - reporter: my_reporter
+
